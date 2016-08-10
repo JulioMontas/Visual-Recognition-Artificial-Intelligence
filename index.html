@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Visual Recognition Artificial Intelligence</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/master.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-default"><div class="container-fluid"><h4 class="text-center">Visual Recognition Artificial Intelligence</h4></div></nav>
+
+    <!-- Page content -->
+    <div class="container">
+      <div class="input-group">
+        <span class="input-group-addon">Image source:</span>
+        <input id="search-tag" type="text" class="form-control" placeholder="http://www">
+      </div>
+      </br>
+      <button id="submit-btn" type="button" class="btn btn-primary btn-lg btn-block">Find Info</button>
+    </div>
+    </br>
+    <!-- Page content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-8">
+          <img id="tags-result-search" src="http://placehold.it/1080x600?text=Image.Result" alt="..." class="img-rounded">
+        </div>
+
+        <div class="col-xs-12 col-md-2 text-center">
+          <b>Predicted Tags</b>
+
+          <ul class="inline">
+            <li id="tags-result-1"></li>
+            <li id="tags-result-2"></li>
+            <li id="tags-result-3"></li>
+            <li id="tags-result-4"></li>
+            <li id="tags-result-5"></li>
+            <li id="tags-result-6"></li>
+            <li id="tags-result-7"></li>
+            <li id="tags-result-8"></li>
+            <li id="tags-result-9"></li>
+            <li id="tags-result-10"></li>
+            <li id="tags-result-11"></li>
+            <li id="tags-result-12"></li>
+            <li id="tags-result-13"></li>
+            <li id="tags-result-14"></li>
+            <li id="tags-result-15"></li>
+            <li id="tags-result-16"></li>
+            <li id="tags-result-17"></li>
+            <li id="tags-result-18"></li>
+            <li id="tags-result-19"></li>
+            <li id="tags-result-20"></li>
+          </ul>
+        </div>
+
+        <div class="col-md-2 text-center">
+          <b>Tags Result:</b>
+          <ul class="inline">
+            <li id="tags-result-probs-1"></li>
+            <li id="tags-result-probs-2"></li>
+            <li id="tags-result-probs-3"></li>
+            <li id="tags-result-probs-4"></li>
+            <li id="tags-result-probs-5"></li>
+            <li id="tags-result-probs-6"></li>
+            <li id="tags-result-probs-7"></li>
+            <li id="tags-result-probs-8"></li>
+            <li id="tags-result-probs-9"></li>
+            <li id="tags-result-probs-10"></li>
+            <li id="tags-result-probs-11"></li>
+            <li id="tags-result-probs-12"></li>
+            <li id="tags-result-probs-13"></li>
+            <li id="tags-result-probs-14"></li>
+            <li id="tags-result-probs-15"></li>
+            <li id="tags-result-probs-16"></li>
+            <li id="tags-result-probs-17"></li>
+            <li id="tags-result-probs-18"></li>
+            <li id="tags-result-probs-19"></li>
+            <li id="tags-result-probs-20"></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- scripts -->
+    <script type="text/javascript" src="https://sdk.clarifai.com/js/clarifai-1.2.1.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/keys.js"></script>
+  </body>
+</html>

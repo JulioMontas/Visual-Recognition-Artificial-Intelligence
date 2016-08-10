@@ -1,0 +1,20 @@
+img {
+  width: 100%;
+}
+
+ul{
+  list-style: none;
+  margin-left: -40px;
+}
+li {
+    letter-spacing: 1px;
+    padding: 5px;
+}
+
+li:nth-child(2n) {
+    background: #ccc none repeat scroll 0 0;
+}
+li:nth-child(2n+1) {
+    background: #959595 none repeat scroll 0 0;
+    font-weight: bold;
+}
