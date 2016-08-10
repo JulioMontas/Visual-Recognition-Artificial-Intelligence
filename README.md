@@ -1,1 +1,1 @@
-# Visual Recognition Artificial Intelligence
+# Visual Recognition Artificial Intelligence: Image Tag Search
