@@ -46,6 +46,7 @@ window.onload = function() {
       console.log('Tag status_msg:', response.status_msg);
       console.log('Tag status_code:', response.status_code);
 
+      // Loop this pleaseee.
       document.getElementById("tags-result-1").innerHTML = response.results[0].result.tag.classes[0];
       document.getElementById("tags-result-2").innerHTML = response.results[0].result.tag.classes[1];
       document.getElementById("tags-result-3").innerHTML = response.results[0].result.tag.classes[2];
